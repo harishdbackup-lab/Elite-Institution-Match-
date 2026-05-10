@@ -1,0 +1,7 @@
+{
+  "name": "Pathways AI",
+  "description": "A premium AI-powered career guidance platform for Indian students to discover top colleges based on their academic background.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

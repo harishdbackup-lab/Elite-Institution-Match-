@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#f8f9fa] text-slate-900 antialiased;
+  }
+}
+
+.glass {
+  @apply bg-white border border-slate-200 shadow-sm;
+}
+
+.timeline-line {
+  @apply absolute left-[23px] md:left-1/2 top-0 bottom-0 w-0.5 bg-slate-200 -translate-x-1/2 hidden md:block;
+}
